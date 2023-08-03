@@ -1,0 +1,18 @@
+package ReplItTask;
+
+import java.util.Scanner;
+
+public class Repl21 {
+    public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("Enter your age");
+        int age=scanner.nextInt();
+        age=age+10;
+        System.out.println("Your age after 10 rears is "+age);
+
+
+
+
+
+    }
+}
